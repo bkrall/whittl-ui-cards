@@ -1,12 +1,10 @@
 ``` 
-#   _     _  __   __  ___   _______  _______  ___     
-#  | | _ | ||  | |  ||   | |       ||       ||   |    
-#  | || || ||  |_|  ||   | |_     _||_     _||   |    
-#  |       ||       ||   |   |   |    |   |  |   |    
-#  |       ||       ||   |   |   |    |   |  |   |___ 
-#  |   _   ||   _   ||   |   |   |    |   |  |       |
-#  |__| |__||__| |__||___|   |___|    |___|  |_______|
-
+#   __     __     __  __     __     ______   ______   __        
+#  /\ \  _ \ \   /\ \_\ \   /\ \   /\__  _\ /\__  _\ /\ \       
+#  \ \ \/ ".\ \  \ \  __ \  \ \ \  \/_/\ \/ \/_/\ \/ \ \ \____  
+#   \ \__/".~\_\  \ \_\ \_\  \ \_\    \ \_\    \ \_\  \ \_____\ 
+#    \/_/   \/_/   \/_/\/_/   \/_/     \/_/     \/_/   \/_____/ 
+#    
 ```
 
 # Whittl UI Cards
@@ -42,13 +40,15 @@ http://getbootstrap.com/
 **Bootstrap grids w/ Jade**
 [http://shoelace.io/](http://shoelace.io/)
 
-**Sass color variables that don't suck**
+**SMACSS (Scalable and Modular Architecture for CSS)**
+[https://smacss.com/](https://smacss.com/)
+
+**Sass/Less color variables that don't suck**
 http://chir.ag/projects/name-that-color/#6195ED
 
 ### Yelp Ratings
 Yelp Style Guide 
 [http://www.yelp.com/developers/getting_started/display_requirements](http://www.yelp.com/developers/getting_started/display_requirements)
-[http://www.yelp.com/styleguide](http://www.yelp.com/styleguide)
 
 ### Other references
 **Retina Favicon**
