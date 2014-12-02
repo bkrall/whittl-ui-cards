@@ -59,7 +59,7 @@ html
                                             p.menu-name #{business.menuItems[0].name}
                                             .price-stats 
                                                 $#{business.menuItems[0].priceStats.minPrice} 
-                                                if business.menuItems[0].priceStats.minPrice == business.menuItems[1].priceStats.maxPrice
+                                                if business.menuItems[0].priceStats.minPrice == business.menuItems[0].priceStats.maxPrice
                                                     //- If the minPrice does not equal the maxPrice, then add a “+” sign.
                                                     span +
                                                 else
