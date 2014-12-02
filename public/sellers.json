@@ -1,0 +1,249 @@
+{
+  "error": null,
+  "request": {
+    "attributeFilters": null,
+    "cityStateHint": null,
+    "limit": 50,
+    "location": "Chicago,IL",
+    "locationV2": null,
+    "maxDistance": 5,
+    "maxPrice": null,
+    "minRating": null,
+    "offset": null,
+    "orderBy": [
+      {
+        "direction": "Desc",
+        "field": "Score"
+      }
+    ],
+    "originalLocation": {
+      "latitude": 41.878113,
+      "longitude": -87.6298
+    },
+    "query": "facial"
+  },
+  "responseTime": "140ms",
+  "result": {
+    "businesses": [
+      {
+        "allowPurchases": true,
+        "bestMatch": true,
+        "contact": {
+          "cityName": "Chicago",
+          "crossStreets": "Van Buren St & Congress Pky",
+          "formattedAddress": "437 South Dearborn Street, Chicago IL 60605",
+          "latitude": 41.875957,
+          "longitude": -87.629,
+          "neighborhoodName": "The Loop",
+          "postalCode": "60605",
+          "stateAbbr": "IL",
+          "street1": "437 South Dearborn Street"
+        },
+        "distance": 0.2,
+        "endorsement":{
+          "name":"Omer K",
+          "url":"https://graph.facebook.com/omer.a.kareem/picture?type=square"
+        },
+        "description": "Welcome to Pure Rain Nail Spa. We are full service nail salon tailored to each clients unique style and personality. Escape into a world of total comfort, relaxation and rejuvenation. Treat yourself to a luxurious experience... you deserve it! Our full service nail salon will make your stress fade away into distant memory. Our friendly staff will pamper you, renewing your mind, body and soul. Pure Rain Nail Spa is dedicated to providing you with the utmost attention, courtesy, and level of service. Don't leave your appearance to just any nail salon, you deserve the best. Our staff is highly trained and your privacy is assured.",
+        "images": [
+          {
+            "ID": "ZJSJ8T4T8RF9",
+            "imageType": "Inside",
+            "url": "https:\/\/di6nrrwfwwhwt.cloudfront.net\/images\/photos\/ZJSJ8T4T8RF9_l.jpg",
+            "urlPrefix": "https:\/\/di6nrrwfwwhwt.cloudfront.net\/images\/photos\/"
+          }
+        ],
+        "linkID": "pure-rain-nail-spa-chicago-il",
+        "menuItems":[
+          {
+            "name": "Basic Guy's Haircut",
+            "priceStats": {
+              "minPrice":30,
+              "maxPrice":30
+            },
+            "nextAvailable": "Today 1pm",
+            "linkID": "basic-guys-haircut-02995"
+          },
+          {
+            "name": "The Best Guy's Haircut",
+            "priceStats": {
+              "minPrice":70,
+              "maxPrice":70
+            },
+            "nextAvailable": "Today 1pm",
+            "linkID": "the-best-guys-haircut-02995"
+          }
+        ],
+        "name": "Pure Rain Nail Spa",
+        "parentLinkID": null,
+        "parentName": null,
+        "textMatch": "Men’s Haircut and Style",
+        "priceStats": {
+          "maxPrice": 70,
+          "minPrice": 70
+        },
+        "publicID": "GWU6Y9SM",
+        "score": 10,
+        "tags": [
+          {
+            "name": "Popular",
+            "phrase": "Super popular"
+          }
+        ],
+        "yelpData": {
+          "extID": "pure-rain-nail-spa-chicago",
+          "rating": {
+            "count": 116,
+            "value": 3.5
+          }
+        }
+      },
+      {
+        "allowPurchases": true,
+        "bestMatch": false,
+        "contact": {
+          "cityName": "Chicago",
+          "crossStreets": "Wabash Ave & State St",
+          "formattedAddress": "17 East Monroe Street, 5th Floor, Chicago IL 60603",
+          "latitude": 41.88061,
+          "longitude": -87.626884,
+          "neighborhoodName": "The Loop",
+          "postalCode": "60603",
+          "stateAbbr": "IL",
+          "street1": "17 East Monroe Street"
+        },
+        "distance": 0.2,
+        "endorsement":{
+          "name":"Zach A",
+          "url":"https://graph.facebook.com/zarrigoni/picture?type=square"
+        },
+        "images": [
+          {
+            "ID": "JJ2NKUYVMNBF",
+            "imageType": "Inside",
+            "url": "https:\/\/di6nrrwfwwhwt.cloudfront.net\/images\/photos\/JJ2NKUYVMNBF_l.jpg",
+            "urlPrefix": "https:\/\/di6nrrwfwwhwt.cloudfront.net\/images\/photos\/"
+          }
+        ],
+        "linkID": "balance-spa-at-palmer-house-chicago-il",
+        "menuItems":[
+          {
+            "name": "Facial",
+            "priceStats": {
+              "minPrice":245,
+              "maxPrice":245
+            },
+            "nextAvailable": "Today 5pm",
+            "linkID": "facial-02995"
+          },
+          {
+            "name": null,
+            "priceStats": {
+              "minPrice": null,
+              "maxPrice": null
+            },
+            "nextAvailable": null,
+            "linkID": null
+          }
+        ],
+        "name": "Balance Spa at Palmer House",
+        "parentLinkID": null,
+        "parentName": null,
+        "textMatch": "Gold Facial",
+        "description": "Our spa services are designed for customers seeking improvements to their health, beauty, and vitality. From fitness and facials to hair care and manicures, Balance Spa & Fitness brings you spa treatments and day spa packages that perfectly fit your needs and lifestyle. Our spa is your single stop in Chicago for a full menu of spa services and spa treatments all designed to help you look better, feel better and enjoy increased health and vitality. Here is an overview of what we offer you in our full-service day spa Chicago.",
+        "priceStats": {
+          "maxPrice": 245,
+          "minPrice": 245
+        },
+        "publicID": "Y8SAWGO5",
+        "score": 10,
+        "tags": [
+          {
+            "name": "ExtendedHours",
+            "phrase": "Extended hours"
+          }
+        ],
+        "yelpData": {
+          "extID": "balance-spa-and-fitness-palmer-house-chicago",
+          "rating": {
+            "count": 149,
+            "value": 4
+          }
+        }
+      },
+      {
+        "allowPurchases": true,
+        "bestMatch": false,
+        "description": "Located in the Loop, Basia Hair Design offers a great haircut for men and women. A unisex hair salon, Basia is located in the Hilton Chicago Hotel and features some of the most experienced technicians in Chicago.  Trained across the world, these technicians bring over 22 years of experience as well as a knowledge of the latest trends. Reviewers rave about the personalized services and incredible customer service. While the salon offers traditional services such  as haircuts, blowdrys and haircoloring, it is also a great place to get wedding updos or blowouts due to its location in the loop. Beyond hair services, Basia also offers facials, make-up application, manicures and waxing services.",
+        "contact": {
+          "cityName": "Chicago",
+          "crossStreets": null,
+          "formattedAddress": "The Hilton Chicago, 720 S Michigan Ave, Chicago IL 60605",
+          "latitude": 41.87247,
+          "longitude": -87.62476,
+          "neighborhoodName": "The Loop",
+          "postalCode": "60605",
+          "stateAbbr": "IL",
+          "street1": "The Hilton Chicago"
+        },
+        "distance": 0.5,
+        "endorsement":{
+          "name":"Mike Z",
+          "url":"https://graph.facebook.com/zivin/picture?type=square"
+        },
+        "images": [
+          {
+            "ID": "ZERGSBJOGPDI",
+            "imageType": "Inside",
+            "url": "https:\/\/di6nrrwfwwhwt.cloudfront.net\/images\/photos\/ZERGSBJOGPDI_l.jpg",
+            "urlPrefix": "https:\/\/di6nrrwfwwhwt.cloudfront.net\/images\/photos\/"
+          }
+        ],
+        "linkID": "basia-hair-design-chicago-il",
+        "menuItems":[
+          {
+            "name": "Men’s Haircut & Style",
+            "priceStats": {
+              "minPrice":95,
+              "maxPrice":95
+            },
+            "nextAvailable": "Today 3pm",
+            "linkID": "mens-haircut-and-style-02995"
+          },
+          {
+            "name": "Women’s Haircut & Style",
+            "priceStats": {
+              "minPrice":65,
+              "maxPrice":85
+            },
+            "nextAvailable": "Today 3pm",
+            "linkID": "womens-haircut-and-style-23234"
+          }
+        ],
+        "name": "Basia Hair Design",
+        "parentLinkID": null,
+        "parentName": null,
+        "textMatch": "Haircut for men and women",
+        "priceStats": {
+          "maxPrice": 80,
+          "minPrice": 95
+        },
+        "publicID": "50H5W87B",
+        "score": 9,
+        "tags": [
+          {
+            "name": "Popular",
+            "phrase": "Super popular"
+          }
+        ],
+        "yelpData": {
+          "extID": "basia-hair-design-chicago",
+          "rating": {
+            "count": 26,
+            "value": 4
+          }
+        }
+      }
+    ]
+    }
+}

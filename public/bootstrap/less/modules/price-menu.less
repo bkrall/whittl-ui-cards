@@ -1,0 +1,70 @@
+// Price Menu
+
+.mini-price-container {
+    margin-bottom: 25px;
+}
+.mini-price-menu {
+    border: 1px solid #d2d2d2;
+    border-radius: 2px;
+    background: #f8fafa;
+    display: none; // hide on mobile
+    font-size: 19px;
+    height: 368px;
+    margin-bottom: 40px;
+    overflow: hidden;
+    @media (min-width: @screen-sm-min) {
+        display: block !important; //always show on tablet and up
+        margin-bottom: 40px;
+    }
+}
+
+// Menu Items
+.text-match {
+    color: @manatee;
+    padding: 0px 11px 0px 11px;
+}
+
+.divider {
+    border-top: none;
+    border-bottom: 2px solid @alto;
+    color: @alto;
+    opacity: .5;
+}
+
+.menu-list {
+    padding: 0 20px 35px 20px;
+}
+.menu-item {
+    padding: 5px 11px 0px 11px;
+}
+
+.menu-name {
+    color: @keppel;
+    float: left;
+    margin: 0;
+}
+.price-stats {
+    color: @keppel;
+    float: right;
+}
+
+.img-arrow {
+    margin-top: -2px;
+}
+
+.img-arrow-gray {
+   float: right;
+   margin: 5px 10px 0 0;
+}
+
+.next-available {
+    color: @manatee;
+    clear: both;
+}
+.all-services {
+    color: @manatee;
+    padding: 5px 11px 0px 11px;
+    &:hover {
+        color: @manatee;
+    }
+}

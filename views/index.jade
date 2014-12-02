@@ -1,0 +1,94 @@
+html
+    head                                                           
+        title #{title}
+        //- meta tags
+        meta(name='viewport', content='width=device-width, initial-scale=1')
+        //- Bootstrap
+        link(href='public/bootstrap/dist/css/bootstrap.css', rel='stylesheet', type='text/css')
+        //- google fonts
+        link(href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700', rel='stylesheet', type='text/css')
+        //- favicons
+        link(rel='apple-touch-icon-precomposed', sizes='76x76', href='../public/images/favicons/apple-touch-icon-76x76.png')
+        link(rel='apple-touch-icon-precomposed', sizes='144x144', href='../public/images/favicons/apple-touch-icon-144x144.png')
+        link(rel='icon', type='image/png', href='../public/images/favicon/favicon-196x196.png', sizes='196x196')
+        link(rel='icon', type='image/png', href='../public/images/favicon/favicon-96x96.png', sizes='96x96')
+        link(rel='icon', type='image/png', href='../public/images/favicon/favicon-32x32.png', sizes='32x32')
+        link(rel='icon', type='image/png', href='../public/images/favicon/favicon-16x16.png', sizes='16x16')
+        link(rel='icon', type='image/png', href='../public/images/favicon/favicon-128.png', sizes='128x128')
+
+    body
+        .container
+            each business in data.result.businesses
+                .row.no-gutters
+                    .col-sm-6 
+                        .ui-card(style='background: url("#{business.images[0].url}") no-repeat;')
+                            .visible-xs-block.toggle
+                              a(href='#')
+                                | Open menu
+                            .price-sticker 
+                                //- For the price in the green circle, use priceStats.minPrice
+                                $#{business.priceStats.minPrice}
+                                //- If the minPrice does not equal the maxPrice, then add a “+” sign.
+                                if business.priceStats.minPrice = business.priceStats.maxPrice
+                                    span.plus +
+                            .ui-card-description
+                                h3.biz-name #{business.name}
+                                .rating-large
+                                    //- For the star rating, use yelpData.rating
+                                    i(class="star-img stars_#{ business.yelpData.rating.value }")
+                                    span.rating-count (#{business.yelpData.rating.count})
+                                img.img-neighborhood(src='../public/images/icon_neighborhood.png', alt='Neighborhood')
+                                span.neighborhood #{business.contact.neighborhoodName}
+                                span.distance  (#{business.distance} mi)
+                                img.img-phrase(src='../public/images/icon_phrase.png', alt='Phrase')
+                                //- For the "tags" (e.g. Super Popular) you can use tags.phrase
+                                span.phrase  #{business.tags[0].phrase}
+                    .col-sm-6 
+                        .mini-price-container
+                            .mini-price-menu
+                                 //- For the "endorsement" (e.g. Kate J loves this business) use the endorsement field
+                                 div.endorsement
+                                    img.img-circle(src='#{business.endorsement.url}', alt='#{business.name}') 
+                                    span.endorsement-name  #{business.endorsement.name}. 
+                                    span.endorsement-copy loves this business.
+                                 .menu-list
+                                    p.text-match “... #{business.textMatch} ...” 
+
+                                    .menu-item
+                                            //- For the mini price menu you can use the menuItems field
+                                            p.menu-name #{business.menuItems[0].name}
+                                            .price-stats 
+                                                $#{business.menuItems[0].priceStats.minPrice} 
+                                                img.img-arrow(src='../public/images/icon_arrow.png', alt='Arrow')
+                                                //- If the minPrice does not equal the maxPrice, then add a “+” sign.
+                                                //- if business.menuItems.priceStats.minPrice = business.menuItems.priceStats.minPrice
+                                                //-     span +
+                                                //- else
+                                                //-     - $#{business.menuItems[0].priceStats.maxPrice}
+                                            p.next-available Next Available: #{business.menuItems[0].nextAvailable} 
+                                    hr.divider
+
+                                    .menu-item
+                                            //- For the mini price menu you can use the menuItems field
+                                            p.menu-name #{business.menuItems[1].name}
+                                            .price-stats 
+                                                $#{business.menuItems[1].priceStats.minPrice} 
+                                                img.img-arrow(src='../public/images/icon_arrow.png', alt='Arrow')
+                                                //- If the minPrice does not equal the maxPrice, then add a “+” sign.
+                                                //- if business.menuItems.priceStats.minPrice = business.menuItems.priceStats.minPrice
+                                                //-     span +
+                                                //- else
+                                                //-     - $#{business.menuItems[0].priceStats.maxPrice}
+                                            p.next-available Next Available: #{business.menuItems[1].nextAvailable}    
+      
+                                    a.all-services(href='#') See All Services
+                                    img.img-arrow-gray(src='../public/images/icon_arrow-gray.png', alt='Arrow')
+
+    //- Load jQuery and javascript 
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js')
+    script(src='/public/bootstrap/dist/js/scripts.js')
+
+                               
+
+
+

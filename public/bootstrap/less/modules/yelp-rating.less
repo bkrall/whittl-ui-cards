@@ -1,0 +1,60 @@
+// Yelp Rating
+
+.star-img {
+    display: inline-block;
+    width: 115px;
+    height: 100%;
+    background: url(../images/stars_map.png) no-repeat;
+}
+// Escaping decimal on class name to use JSON data
+.rating-large {
+	margin: 9px 0 8px;
+    overflow: hidden;
+    position: relative;
+    height: 19px;
+    .stars_0 {
+        background-position: -3px -303px;
+    }
+    .stars_1 {
+        background-position: -3px -324px;
+    }
+    .stars_1\.5 {
+        background-position: -3px -345px;
+    }
+    .stars_2 {
+        background-position: -3px -366px;
+    }
+    .stars_2\.5 {
+        background-position: -3px -387px;
+    }
+    .stars_3 {
+        background-position: -3px -408px;
+    }
+    .stars_3\.5 {
+        background-position: -3px -429px;
+    }
+    .stars_4 {
+        background-position: -3px -450px;
+    }
+    .stars_4\.5 {
+        background-position: -3px -471px;
+    }
+    .stars_5 {
+        background-position: -3px -492px;
+    }
+}
+
+.rating-count {
+    font-size: 19px;
+    position: relative;
+    left: -5px;
+    top: -5px;
+}
+
+// Retina 
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .star-img {
+        background-image: url(../images/stars_map@2x.png);
+        background-size: 132px 764px;
+    }
+ }

@@ -1,0 +1,18 @@
+// Main
+
+// Container
+.container {
+    margin: 0; // remove centering
+    @media (min-width: @screen-md-min) {
+        max-width: 1000px;
+    }
+}
+// No gutters
+.row.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+.row.no-gutters [class^="col-"], .row.no-gutters [class*=" col-"] {
+    padding-right: 0;
+    padding-left: 0;
+}
