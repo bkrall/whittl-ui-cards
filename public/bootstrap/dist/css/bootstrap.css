@@ -1252,13 +1252,13 @@ h3.biz-name {
   background: #f8fafa;
   display: none;
   font-size: 19px;
-  height: 368px;
   margin-bottom: 40px;
   overflow: hidden;
 }
 @media (min-width: 768px) {
   .mini-price-menu {
     display: block !important;
+    height: 368px;
     margin-bottom: 40px;
   }
 }
@@ -1303,8 +1303,16 @@ h3.biz-name {
   padding: 5px 11px 0px 11px;
   position: absolute;
   display: block;
-  width: 453px;
-  bottom: 60px;
+  position: relative;
+  width: auto;
+  bottom: auto;
+}
+@media (min-width: 768px) {
+  .all-services {
+    position: absolute;
+    width: 453px;
+    bottom: 60px;
+  }
 }
 .all-services:hover {
   color: #969ba6;
