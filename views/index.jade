@@ -69,20 +69,21 @@ html
                                     hr.divider
 
                                     .menu-item
-                                            //- For the mini price menu you can use the menuItems field
+                                        //- For the mini price menu you can use the menuItems field
+                                        if business.menuItems[1]
                                             p.menu-name #{business.menuItems[1].name}
                                             .price-stats 
                                                 $#{business.menuItems[1].priceStats.minPrice} 
+                                                if business.menuItems[1].priceStats.minPrice == business.menuItems[1].priceStats.maxPrice
+                                                    //- If the minPrice does not equal the maxPrice, then add a “+” sign.
+                                                    span +
+                                                else
+                                                    span -$#{business.menuItems[1].priceStats.maxPrice}
                                                 img.img-arrow(src='../public/images/icon_arrow.png', alt='Arrow')
-                                                //- If the minPrice does not equal the maxPrice, then add a “+” sign.
-                                                //- if business.menuItems.priceStats.minPrice = business.menuItems.priceStats.minPrice
-                                                //-     span +
-                                                //- else
-                                                //-     - $#{business.menuItems[0].priceStats.maxPrice}
                                             p.next-available Next Available: #{business.menuItems[1].nextAvailable}    
-      
-                                    a.all-services(href='#') See All Services
-                                    img.img-arrow-gray(src='../public/images/icon_arrow-gray.png', alt='Arrow')
+  
+                                     a.all-services(href='#') See All Services
+                                     img.img-arrow-gray(src='../public/images/icon_arrow-gray.png', alt='Arrow')
 
     //- Load jQuery and javascript 
     script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js')

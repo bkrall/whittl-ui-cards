@@ -78,6 +78,7 @@
         "parentLinkID": null,
         "parentName": null,
         "textMatch": "Men’s Haircut and Style",
+        "boldText": "Haircut",
         "priceStats": {
           "maxPrice": 70,
           "minPrice": 70
@@ -135,21 +136,13 @@
             },
             "nextAvailable": "Today 5pm",
             "linkID": "facial-02995"
-          },
-          {
-            "name": null,
-            "priceStats": {
-              "minPrice": null,
-              "maxPrice": null
-            },
-            "nextAvailable": null,
-            "linkID": null
           }
         ],
         "name": "Balance Spa at Palmer House",
         "parentLinkID": null,
         "parentName": null,
         "textMatch": "Gold Facial",
+        "boldText": "Facial",
         "description": "Our spa services are designed for customers seeking improvements to their health, beauty, and vitality. From fitness and facials to hair care and manicures, Balance Spa & Fitness brings you spa treatments and day spa packages that perfectly fit your needs and lifestyle. Our spa is your single stop in Chicago for a full menu of spa services and spa treatments all designed to help you look better, feel better and enjoy increased health and vitality. Here is an overview of what we offer you in our full-service day spa Chicago.",
         "priceStats": {
           "maxPrice": 245,
@@ -224,6 +217,7 @@
         "parentLinkID": null,
         "parentName": null,
         "textMatch": "Haircut for men and women",
+        "boldText": "Haircut",
         "priceStats": {
           "maxPrice": 80,
           "minPrice": 95

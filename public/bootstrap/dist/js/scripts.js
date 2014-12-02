@@ -11,10 +11,6 @@ $(".toggle:eq(2)").click(function() {
     $('.mini-price-menu:eq(2)').slideToggle();
 });
 
-// Hide undefined menuItem name :/
-$('.mini-price-menu .menu-item:eq(3)').hide();
-
-
 // Find a string and wrap a tag around it
 // http://stackoverflow.com/a/9795091/158837
 $.fn.wrapInTag = function(opts) {
