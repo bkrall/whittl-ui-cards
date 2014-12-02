@@ -61,7 +61,7 @@ html
                                                 $#{business.menuItems[0].priceStats.minPrice} 
                                                 if business.menuItems[0].priceStats.minPrice == business.menuItems[0].priceStats.maxPrice
                                                     //- If the minPrice does not equal the maxPrice, then add a “+” sign.
-                                                    span +
+                                                    span.plus +
                                                 else
                                                     span -$#{business.menuItems[0].priceStats.maxPrice}
                                                 img.img-arrow(src='../public/images/icon_arrow.png', alt='Arrow')
