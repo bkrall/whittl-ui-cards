@@ -59,13 +59,13 @@ html
                                             p.menu-name #{business.menuItems[0].name}
                                             .price-stats 
                                                 $#{business.menuItems[0].priceStats.minPrice} 
+                                                if business.menuItems[0].priceStats.minPrice == business.menuItems[1].priceStats.maxPrice
+                                                    //- If the minPrice does not equal the maxPrice, then add a “+” sign.
+                                                    span +
+                                                else
+                                                    span -$#{business.menuItems[0].priceStats.maxPrice}
                                                 img.img-arrow(src='../public/images/icon_arrow.png', alt='Arrow')
-                                                //- If the minPrice does not equal the maxPrice, then add a “+” sign.
-                                                //- if business.menuItems.priceStats.minPrice = business.menuItems.priceStats.minPrice
-                                                //-     span +
-                                                //- else
-                                                //-     - $#{business.menuItems[0].priceStats.maxPrice}
-                                            p.next-available Next Available: #{business.menuItems[0].nextAvailable} 
+                                            p.next-available Next Available: #{business.menuItems[0].nextAvailable}  
                                     hr.divider
 
                                     .menu-item
